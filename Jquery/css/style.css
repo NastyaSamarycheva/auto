@@ -259,3 +259,57 @@ footer .social div {
   margin-left: 15px;
 
 }
+
+@media (min-width: 360px) and (max-width: 767px) {
+header {
+  width: 90%;
+  padding: 20px 5%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .nav {margin-left: 50px;}
+.full-page h1 {
+  padding-top: 40%;
+  font-size: 32px;
+  width: 90%;
+  margin: 0 auto;
+}
+.features {
+  display: inline-block;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 7.5%;
+}
+.gallery {
+  display: inline-block;
+  justify-content: space-between;
+  margin: 15% 5% 15% 5%;
+}
+.gallery div {
+  margin-top: 10px;
+  margin-right: 50px;
+  float: left;
+}
+.bg-fixed h3 {padding-top: 20%}
+.bg-fixed button {margin-top: 10%}
+
+footer {
+  width: 90%;
+  padding: 50px 5%;
+}
+footer .up-btn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #eee;
+  border: 1px solid silver;
+  cursor: pointer;
+  color: #3b3b3b;
+  transition: transform 600ms ease;
+}
+footer .social div {margin-left: 15px;}
+}
